@@ -94,3 +94,25 @@ main {
 .card3 button {
     color: hsl(179, 100%, 13%);
 }
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+        margin: 50px;
+        width: 90%;
+    }
+
+    .card1 {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .card3 {
+        border-radius: 0 0 10px 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        width: 90%;
+    }
+}
